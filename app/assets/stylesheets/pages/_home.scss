@@ -1,1 +1,70 @@
 // Specific CSS for your home-page
+body {
+  background-color: #0B0C10;
+}
+
+.my-profile {
+  padding: 0 8% 0 8%;
+}
+
+.navbar {
+  padding: 40px 0px 40px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  gap: 40px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #C5C6C7;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #66FCF1;
+}
+
+.my-name h2 {
+  font-family: "Raleway";
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #66FCF1;
+}
+
+.my-title h3 {
+  color: #45A29E;
+  margin-bottom: 50px;
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+}
+
+.my-content p {
+  color: #C5C6C7;
+}
+
+// .about_me-container{
+//   background-color: #E3856B;
+// }
+
+.about-header h3 {
+  color: #45A29E;
+}
+
+.about-content p {
+  color: #C5C6C7;
+}
+
+.experience-container h3 {
+  color: #45A29E;
+}
+
+.portfolio-container h3 {
+  color: #45A29E;
+}
+.contact-container h3 {
+  color: #45A29E;
+}
