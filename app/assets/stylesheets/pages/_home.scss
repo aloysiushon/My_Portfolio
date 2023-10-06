@@ -46,10 +46,6 @@ body {
   color: #C5C6C7;
 }
 
-// .about_me-container{
-//   background-color: #E3856B;
-// }
-
 .about-header h3 {
   color: #45A29E;
 }
@@ -60,6 +56,38 @@ body {
 
 .experience-container h3 {
   color: #45A29E;
+}
+
+.experience-items {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.experience-items h4 {
+  font-size: 16px;
+}
+
+.experience-item i {
+  margin-bottom: 35px;
+}
+
+.experience-item h4 {
+  color: #C5C6C7;
+}
+
+.experience-item h4:hover {
+  color: #66FCF1;
+}
+
+.ruby-img {
+  height: 32px;
+  width: 28px;
+  margin-bottom: 16px;
+}
+
+.rails-img {
+  height: 50px;
+  width: 50px;
 }
 
 .portfolio-container h3 {
