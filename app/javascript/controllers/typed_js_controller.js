@@ -5,7 +5,7 @@ export default class extends Controller {
   connect() {
     console.log(this.element);
     new Typed(this.element, {
-      strings: ["Fullstack Developer"],
+      strings: ["Website Developer"],
       typeSpeed: 50,
       backSpeed: 25,
       loop: true,
