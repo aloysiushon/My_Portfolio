@@ -35,9 +35,28 @@ body {
   width: 50%;
 }
 
+.my-name {
+  position: relative;
+  display: inline-block;
+}
+
 .my-picture {
-  justify-content: end;
+  justify-content: center;
   display: flex;
+  height: 65%;
+}
+
+.my-name h1 {
+  font-family: "Raleway";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #C5C6C7;
+  position: absolute;
+  top: 20%; /* Center the text vertically */
+  left: 85%; /* Center the text horizontally */
+  transform: translate(-50%, -50%);
+  width: 400px;
 }
 
 .my-name h2 {
@@ -46,25 +65,35 @@ body {
   font-weight: 700;
   line-height: 56px;
   color: #66FCF1;
+  position: absolute;
+  top: 30%; /* Center the text vertically */
+  left: 68%; /* Center the text horizontally */
+  transform: translate(-50%, -50%);
+  width: 400px;
+}
+
+.my-name > img {
+  filter: drop-shadow(10px 8px 6px #66FCF1);
+  width: 550px;
+  margin-left: 100px;
 }
 
 .my-title span {
   color: #45A29E;
-  margin-bottom: 50px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
+  position: absolute;
+  top: 39%; /* Center the text vertically */
+  left: 68%; /* Center the text horizontally */
+  transform: translate(-50%, -50%);
+  width: 400px;
 }
 
 .my-picture > img {
-  width: 300px;
-  height: 400px;
+  width: 70%;
+  height: 60%;
   filter: drop-shadow(10px 8px 6px #66FCF1);
-}
-
-.my-content p {
-  color: #C5C6C7;
-  width: 300px;
-  height: 400px;
+  margin: 50px 30px 0 0;
 }
 
 .about-header h3 {
