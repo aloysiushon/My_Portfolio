@@ -34,51 +34,71 @@
     </div>
   </section>
 
-  <section class="about_me-container">
+  <section class="about-me-container">
     <div class="about-header">
       <h3>About Me</h3>
       <div class="about-content">
         <p>
           Recent graduate with a passion for web development and a commitment to lifelong learning.
-          My journey into the world of coding started with a full-stack bootcamp, and I've been on an exhilarating learning curve ever since.
-
+          My journey into the world of coding started with a full-stack bootcamp, and I've been on an exhilarating learning curve ever since.<br>
+          <br>
           While I may not have industry experience yet, I bring a fresh perspective and a hunger to immerse myself in the web development field.
-          The dynamic and ever-evolving nature of web technologies excites me, and I'm eager to embark on this journey of growth and discovery.
-
+          The dynamic and ever-evolving nature of web technologies excites me, and I'm eager to embark on this journey of growth and discovery.<br>
+          <br>
           Let's bring innovation to life together!
         </p>
       </div>
     </div>
+
+    <section class="experience-container">
+      <h3>Skills</h3>
+      <div class="experience-list">
+        <ul class="experience-items">
+          <li class="experience-item">
+            <%= image_tag('Rails.png', class: 'rails-img', alt: 'Rails') %>
+            <h4>Ruby On Rails</h4>
+          </li>
+          <li class="experience-item">
+            <%= image_tag('Ruby.png', class: 'ruby-img', alt: 'Ruby') %>
+            <h4>Ruby</h4>
+          </li>
+          <li class="experience-item">
+            <i class="fa-brands fa-square-js fa-2xl" style="color: #c5c6c7;"></i>
+            <h4>JavaScript</h4>
+          </li>
+          <li class="experience-item">
+            <i class="fa-brands fa-css3-alt fa-2xl" style="color: #c5c6c7;"></i>
+            <h4>CSS</h4>
+          </li>
+          <li class="experience-item">
+            <i class="fa-brands fa-html5 fa-2xl" style="color: #c5c6c7;"></i>
+            <h4>HTML 5</h4>
+          </li>
+        </ul>
+      </div>
+    </section>
   </section>
-  <section class="experience-container">
-    <h3>Foundations & Skills</h3>
-    <div class="experience-list">
-      <ul class="experience-items">
-        <li class="experience-item">
-          <%= image_tag('Rails.png', class: 'rails-img', alt: 'Rails') %>
-          <h4>Ruby On Rails</h4>
-        </li>
-        <li class="experience-item">
-          <%= image_tag('Ruby.png', class: 'ruby-img', alt: 'Ruby') %>
-          <h4>Ruby</h4>
-        </li>
-        <li class="experience-item">
-          <i class="fa-brands fa-square-js fa-2xl" style="color: #c5c6c7;"></i>
-          <h4>JavaScript</h4>
-        </li>
-        <li class="experience-item">
-          <i class="fa-brands fa-css3-alt fa-2xl" style="color: #c5c6c7;"></i>
-          <h4>CSS</h4>
-        </li>
-        <li class="experience-item">
-          <i class="fa-brands fa-html5 fa-2xl" style="color: #c5c6c7;"></i>
-          <h4>HTML 5</h4>
-        </li>
-      </ul>
-    </div>
-  </section>
+
   <section class="portfolio-container">
     <h3>Portfolio</h3>
+    <div class="portfolio-items">
+      <article class="portfolio-item">
+        <div class="portfolio-img"><%= image_tag('dogfrens.png', alt: 'Dogfrens') %></div>
+        <h3>DogFrens</h3>
+        <div class="portfolio-link">
+          <a href="https://dogfrens-a99bf1c2bbab.herokuapp.com" class="btn web-link" target="_blank">Demo</a>
+          <a href="https://github.com/aloysiushon/Dogfrens-clone" class="btn git-link" target="_blank">Github</a>
+        </div>
+      </article>
+      <article class="portfolio-item">
+        <div class="portfolio-img"><%= image_tag('bodfrens.png', alt: 'Dogfrens') %></div>
+        <h3>BodFrens</h3>
+        <div class="portfolio-link">
+          <a href="https://www.bodfrens.com/" class="btn web-link" target="_blank">Demo</a>
+          <a href="https://github.com/aloysiushon/bodfrens-clone" class="btn git-link" target="_blank">Github</a>
+        </div>
+      </article>
+    </div>
   </section>
   <section class="contact-container">
     <h3>Contact</h3>
