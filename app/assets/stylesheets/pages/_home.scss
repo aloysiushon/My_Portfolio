@@ -106,7 +106,8 @@ body {
   flex: 2;
   border-radius: 20px;
   padding: 70px 60px;
-  box-shadow: 0px 15px 20px #C5C6C7;
+  // box-shadow: 0px 15px 20px #C5C6C7;
+  border: 2px solid #C5C6C7;
 }
 
 .about-header h3 {
@@ -125,7 +126,8 @@ body {
   flex: 1;
   border-radius: 20px;
   padding: 70px 60px;
-  box-shadow: 0px 15px 20px #C5C6C7;
+  // box-shadow: 0px 15px 20px #C5C6C7;
+  border: 2px solid #C5C6C7;
 }
 
 .experience-container h3 {
@@ -213,8 +215,6 @@ body {
 
 .portfolio-img {
   padding: 50px 50px 10px 50px;
-  // width: 90%; /* Set the desired fixed width for the container */
-  // height: 100%;
   overflow: hidden;
 }
 
@@ -249,4 +249,33 @@ body {
   color: #45A29E;
   font-weight: 700;
   font-size: 40px;
+  margin: 25px;
+}
+
+.my-contacts {
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid #C5C6C7;
+  border-radius: 40px;
+}
+
+.my-number, .my-email {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.my-number i, .my-email i {
+  font-size: 50px;
+}
+
+.text h3 {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.my-contacts h4 {
+  color: #45A29E;
+  margin: 25px;
+  font-family: "Raleway";
 }
